@@ -197,6 +197,6 @@ console.log(joe.scopeArrow());
 // 1. What is "this" when joe.scope() is invoked?
 //the object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// all the variables visible to a function
+// window
 // 3. Explain why "this" is different when an arrow function is used.
 //because Arrow functions establish "this" based on the scope the Arrow function is defined within.
